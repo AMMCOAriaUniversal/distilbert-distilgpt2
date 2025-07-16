@@ -1,0 +1,91 @@
+--prefer-binary
+# API, Web & frontend
+gradio==5.33.0
+matplotlib==3.5.3
+typer>=0.9.0
+flask
+flask-cors
+gunicorn
+websockets==10.4
+python-socketio
+asyncio
+qiskit==0.43.2
+qiskit-aer>=0.11.1
+qiskit-ibm-runtime
+
+
+
+
+# Natural Language & translation
+deep-translator    # Replace googletrans with deep-translator
+
+# Build dependencies
+Cython>=0.29
+wheel
+setuptools
+fasttext==0.9.2
+polyglot
+
+
+
+
+
+# Audio, speech, and video
+speechrecognition
+pyttsx3
+gtts
+pydub
+ffmpeg-python
+imageio
+imageio-ffmpeg
+moviepy
+
+
+# Core ML & DL frameworks
+torch>=2.6.0
+tensorflow>=2.19.0
+transformers>=4.51.0
+huggingface_hub
+suno-bark
+whisper  # openai-whisper installable as 'whisper'
+langchain
+langchain-core
+plotly
+tf-keras>=2.15.0  # Add this line to fix the error
+scikit-learn
+
+
+
+
+# Bio & environmental science
+biopython
+rdkit
+pyowm
+pyfao56
+geopandas
+
+# AI applications
+rasa
+qiskit-finance>=0.3.0
+
+# Simulation & concurrency
+simpy
+aiortc
+
+# CV, XR, and sensor tools
+mediapipe
+opencv-python>=4.9.0 # Add OpenCV here
+openxr
+pyDHM
+
+# Data processing & utilities
+numpy>=1.21.0
+pandas>=2.0.0
+plotly
+scikit-learn
+sympy
+yfinance>=0.2.31
+Faker>=18.11.0
+requests>=2.31.0
+httpx>=0.23.0
+httpcore==0.15.0  # Downgrade httpcore for compatibility
